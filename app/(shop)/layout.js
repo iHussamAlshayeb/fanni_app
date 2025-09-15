@@ -1,11 +1,7 @@
 import React from 'react';
 
 const ShopLayout = ({ children }) => {
-  return (
-    <div className="shop-layout">
-      {children}
-    </div>
-  );
+  return <>{children}</>;
 };
 
 export default ShopLayout;
